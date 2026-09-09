@@ -1,2 +1,3 @@
-# Ignore licensed FbxConverter.exe
-/io_scene_fbx_legacy/FbxConverter.exe
+# Ignore licensed FbxConverter.exe and potential test zip
+io_scene_fbx_legacy/FbxConverter.exe
+io_scene_fbx_legacy.zip
