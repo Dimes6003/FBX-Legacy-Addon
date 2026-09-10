@@ -1,7 +1,6 @@
 # FBX-Legacy-Addon
 Blender Addon to support import and export of older, unsupported FBX file formats <br>
 * Includes FBX version support for Autodesk products ranging between 2006 & 2013 <br>
-<br>
 
 ### Requirements
 Tested support for Blender versions 2.9 - 3.1
