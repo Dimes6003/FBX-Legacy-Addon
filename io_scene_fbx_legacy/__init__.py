@@ -834,6 +834,7 @@ class ExportFBXLegacy(ExportFBXProperties, bpy.types.Operator, ExportHelper):
         preferences = context.preferences.addons[__package__].preferences
         if preferences.use_maya_export_defaults:
             self.path_mode = 'COPY'
+            self.embed_textures = True
             self.apply_scale_options = 'FBX_SCALE_UNITS'
             self.apply_unit_scale = True
             self.use_space_transform = True
